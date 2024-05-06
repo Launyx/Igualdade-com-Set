@@ -18,5 +18,6 @@ public class Program {
         
         // Antes das implementações de HashCode e equals na classe Product, o set compara o local de memória/ponteiro dos objetos
         System.out.println(set.contains(prod));
+        // Depois da implementação, o set passa a comparar os conteúdos determinados no HashCode e no equals
     }
 }
